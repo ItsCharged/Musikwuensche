@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// Wenn das Repo 'itscharged.github.io' heißt:
 export default defineConfig({
   plugins: [react()],
-  base: '/musikwuensche/',
+  base: '/', 
 })
